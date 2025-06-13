@@ -1,6 +1,6 @@
 # 🎉 **WisataPas** – Your Personalized Travel Assistant
 
-[Demo App Video Here](https://drive.google.com/file/d/1vIXrm37aLaXNmvuFVmE5akL1sUwTz5FC/view?usp=drive_link)
+[🎥 Demo App Video Here](https://drive.google.com/file/d/1vIXrm37aLaXNmvuFVmE5akL1sUwTz5FC/view?usp=drive_link)
 
 Hello there! 👋 Welcome to **WisataPas**, a web-based application that transforms your travel planning experience with intelligent recommendations tailored to your budget and interests. Our mission is to bridge the tourism information gap in Indonesia and empower travelers with smart, accessible, and personalized destination suggestions.
 
@@ -10,95 +10,101 @@ Hello there! 👋 Welcome to **WisataPas**, a web-based application that transfo
 
 ## 💎 **Project Overview**
 
-**WisataPas** is a web application that leverages machine learning to offer personalized tourism destination recommendations for travelers in Indonesia. The app aims to address the difficulty many tourists face in accessing comprehensive travel information—like routes, costs, facilities, and transport options—by generating suggestions aligned with individual preferences and budgets.
+**WisataPas** is a smart tourism recommendation platform built as a capstone project under Bangkit Academy 2025. It uses a combination of **Content-Based Filtering** and **Collaborative Filtering** to recommend tourist destinations in Indonesia, tailored to individual preferences and budgets.
 
-This system is designed with a modular architecture, featuring separate components for frontend, backend, and machine learning models—all of which integrate to create a seamless travel planning experience.
+With real-time destination data, interactive maps, and an intuitive interface, **WisataPas** helps users discover travel spots and plan their trips efficiently.
 
 ---
 
 ## 🌍 **Why It Matters**
 
-Indonesia’s rich tourism potential is often hindered by fragmented or hard-to-find information, especially for budget-conscious travelers. Despite rising domestic and international travel figures, many tourists still struggle with inefficient trip planning. **WisataPas** seeks to fill this gap by offering:
-- Intelligent destination suggestions.
-- A clean and responsive user interface.
-- Budget-based planning features.
-- AI-driven recommendations based on real user needs.
+In 2024, Indonesia saw over **1.02 billion domestic trips**, yet many travelers still struggled to access essential information such as costs, routes, or amenities—especially in remote regions. Unlike platforms that only display general information, **WisataPas** provides:
+- ✨ Personalized recommendations
+- 🗺️ Interactive destination maps
+- 💬 AI-generated summaries using fine-tuned T5
+- 💸 Budget-based travel suggestions
 
-This project aligns with the goal of **inclusive and sustainable tourism development** in Indonesia by making travel easier and more enjoyable for everyone.
+This empowers travelers to make informed decisions and supports sustainable, inclusive tourism.
 
 ---
 
 ## 👥 **Meet Our Amazing Team**
 
-Our team consists of passionate individuals from the **Cloud Computing** and **Machine Learning** cohorts of Bangkit Academy, united by a shared goal: to make travel planning easier and smarter.
-
-| 🎓 **Role**         | 👩‍💻 **Name**                     | 🆔 **Bangkit ID**   | 🔗 **LinkedIn**                                                                 | 📍 **GitHub** |
-|---------------------|-----------------------------------|---------------------|-------------------------------------------------------------------------------|---------------|
-| **Machine Learning** | Husnul Khatimah                  | MC223D5X0471        | [LinkedIn](https://www.linkedin.com/in/husnlkhatmh/)                          | *(TBD)*       |
-| **Machine Learning** | Marsha Kamila                    | MC223D5X0472        | [LinkedIn](https://www.linkedin.com/in/marsha-kamila/)                        | *(TBD)*       |
-| **Machine Learning** | Miftahullah Surya Nugraha        | MC223D5Y0691        | [LinkedIn](https://www.linkedin.com/in/miftahullah-surya-nugraha-0442a6295/) | *(TBD)*       |
-| **Front-End Back-End**            | Sofyan Farros                    | FC223D5Y0743        | [LinkedIn](https://www.linkedin.com/in/sofyanfarros/)                         | *(TBD)*       |
-| **Front-End Back-End**            | Muhammad Jamaluddin              | FC223D5Y0990        | [LinkedIn](https://www.linkedin.com/in/muhammad-jamaluddin-182f04/)          | *(TBD)*       |
-| **Front-End Back-End**            | Abdullah Ridho Laksmana          | FC223D5Y2341        | [LinkedIn](https://www.linkedin.com/in/abdullahridho/)                        | *(TBD)*       |
+| 🎓 **Role**         | 👩‍💻 **Name**                     | 🆔 **Bangkit ID**   | 🔗 **LinkedIn**                                                                 | 📍 **GitHub**                                 |
+|---------------------|-----------------------------------|---------------------|-------------------------------------------------------------------------------|----------------------------------------------|
+| **Machine Learning** | Husnul Khatimah                  | MC223D5X0471        | [LinkedIn](https://www.linkedin.com/in/husnlkhatmh/)                          | [husnlkhatmh](https://github.com/husnlkhatmh) |
+| **Machine Learning** | Marsha Kamila                    | MC223D5X0472        | [LinkedIn](https://www.linkedin.com/in/marsha-kamila/)                        | [shamarsha](https://github.com/shamarsha)     |
+| **Machine Learning** | Miftahullah Surya Nugraha        | MC223D5Y0691        | [LinkedIn](https://www.linkedin.com/in/miftahullah-surya-nugraha-0442a6295/) | [miftahsuryan](https://github.com/miftahsuryan) |
+| **FEBE**            | Sofyan Farros                    | FC223D5Y0743        | [LinkedIn](https://www.linkedin.com/in/sofyanfarros/)                         | [sofyan2108](https://github.com/sofyan2108)   |
+| **FEBE**            | Muhammad Jamaluddin              | FC223D5Y0990        | [LinkedIn](https://www.linkedin.com/in/muhammad-jamaluddin-182f04/)          | [jamaljml18](https://github.com/jamaljml18)   |
+| **FEBE**            | Abdullah Ridho Laksmana          | FC223D5Y2341        | [LinkedIn](https://www.linkedin.com/in/abdullahridho/)                        | [Dw3ls](https://github.com/Dw3ls)             |
 
 ---
 
-## 🚀 **Project Goals**
+## 🚀 **Project Highlights**
 
-- 🧭 **Personalized Recommendations**: Suggest tourist destinations based on budget and user interests using content-based filtering.
-- 💡 **Simplify Travel Planning**: Present clear, structured information like routes, costs, and facilities.
-- 🤖 **Use Machine Learning**: Train a recommender system model with real tourism data to provide relevant suggestions.
+### 💡 Recommender System
+- **Content-Based Filtering**: TF-IDF + Cosine Similarity based on destination features.
+- **Collaborative Filtering**: TensorFlow-based `RecommenderNet` model using user-destination embeddings.
+- **Generative AI**: Fine-tuned T5 model to auto-generate descriptions from destination metadata.
 
----
-
-## 💡 **How Did We Come Up With This Project?**
-
-We identified a crucial gap in the tourism experience in Indonesia: a lack of easily accessible and budget-based destination information. Inspired by successful practices in other countries (like brochures in Thailand’s airports and train stations), and after analyzing domestic travel trends and barriers, we realized that a smart web app with recommendation features could significantly enhance trip planning.
-
-Thus, **WisataPas** was born—an app that merges user preferences with real data to produce smart, budget-aligned destination recommendations.
+### 🌐 Full Stack System
+- **Frontend**: HTML5, TailwindCSS, Vanilla JS, Leaflet.js for map visualization.
+- **Backend**: Node.js + Hapi.js + PostgreSQL (hosted on Supabase) + FastAPI.
+- **Deployment**: Vercel (FE+BE), Hugging Face Spaces (ML Models).
 
 ---
 
-## 🧩 **Project Structure**
+## 🌐 **Deployment Links**
 
-Our development process is divided into three primary domains:
-
-- 🧠 **Machine Learning**: Uses content-based filtering trained on Indonesian tourism data to recommend destinations.
-- 📱 **Front-End (SPA & MPA)**: Built with HTML, Tailwind CSS, and Vanilla JS. Responsive, user-friendly UI designed using Webpack.
-- ☁️ **Back-End (RESTful API)**: Powered by Node.js and Hapi.js, connected to a database to store and serve destination data and ML integration.
+- 🌍 Website: [wisatapas.netlify.app](http://wisatapas.netlify.app)
+- 🔧 Backend API: [wisatapas-backend-vercel.vercel.app](https://wisatapas-backend-vercel.vercel.app/)
+- 🤖 ML Model (FastAPI): [HuggingFace](https://mjamalm18-fastapi-wisatapas.hf.space/)
 
 ---
 
-## 🛠 **Tech Stack & Tools**
+## 📊 Dataset & Model Details
 
-**Frontend & Backend:**
-- ⚙️ Webpack
-- 🎨 Tailwind CSS
-- 🌐 Hapi.js
-- 🟢 Node.js
-
-**Machine Learning:**
-- 📊 Numpy, Pandas, Matplotlib, Scikit-Learn
-- 🧠 TensorFlow
-- ☁️ Google Colab
-- 📈 Dataset sourced from Kaggle and other public tourism repositories
-
-**Collaboration & Development:**
-- 🧑‍💻 GitHub (Version Control)
-- 🖥️ Visual Studio Code
+- 🗂️ Base Dataset: [Kaggle Dataset](https://www.kaggle.com/datasets/aprabowo/indonesia-tourism-destination)
+- 📈 Extended to 608 destinations and 16,299 synthetic ratings from 450 users
+- 🖼️ Images collected via web scraping
+- 📁 Modular artifacts: TF-IDF vectors, encodings, embedding models, and saved weights
 
 ---
 
-## ⚠️ **Risks & Mitigation Strategies**
+## 🔐 Security & Architecture
 
-| ⚠️ Potential Risk | ✅ Mitigation Strategy |
-|------------------|------------------------|
-| Tugas tertunda | Evaluasi rutin & timeline mingguan |
-| Kurangnya pengalaman | Saling bantu dan belajar mandiri |
-| Kegiatan mendadak | Fleksibel dengan revisi jadwal |
-| Kurangnya dataset | Eksplorasi sumber tambahan (Kaggle, API publik, dll) |
+- 🔐 JSON Web Token (JWT) for authentication and authorization
+- ☁️ RESTful API connecting frontend, backend, and ML models
+- 🧱 Modular structure for seamless deployment & integration
 
 ---
 
-We believe that **WisataPas** will make tourism in Indonesia more inclusive, smart, and personalized. Thank you for checking out our project! 🇮🇩✨
+## 📌 Notes
+
+- Project Status: ✅ **100% complete**
+- Repository: [github.com/WisataPas](https://github.com/WisataPas)
+- All features implemented are tested and optimized for responsiveness and performance.
+
+---
+
+## 🎯 Target Audience
+
+- 🎒 Travelers aged 17–40
+- 📱 Tech-savvy explorers seeking local, budget-friendly, unique experiences
+- 🏞️ Ideal for students, freelancers, and remote workers
+
+---
+
+## 🙌 Acknowledgements
+
+This project was built with dedication, collaboration, and guidance from our advisors:
+- 👨‍🏫 R Surahutomo Aziz Pradana (02 Juni 2025)
+- 👨‍🏫 Ferry Yun Kurniawan (17 Mei 2025)
+
+We also thank Bangkit Academy 2025 for the incredible opportunity to develop this meaningful solution. 🇮🇩
+
+---
+
+Feel free to clone, explore, and contribute! 🚀
 
